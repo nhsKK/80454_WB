@@ -1,0 +1,24 @@
+#l__box{
+    display: inline-block;
+
+    width: 200px;
+    height: 1000px; 
+}
+    nav{}
+
+        nav h3{
+            background-color:gray;
+        }
+
+        nav ul{}
+
+            nav ul li{}
+
+
+
+#r__box{
+    display: inline-block;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
