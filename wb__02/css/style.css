@@ -1,34 +1,131 @@
+/* 共通スタイル */
+img{
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+}
+
+
+
+#body__stl{
+    float: none;
+
+    width: 100%;
+    height: auto;
+}
+
+ul li{
+    list-style: none;
+}
+
 #l__box{
-    margin-top: 0;
-    display: inline-block;
+    float: left;
 
     width: 200px;
     height: 1000px; 
+    top: 0px;
+    border-right: solid gray 0.5px;
 }
-    nav{}
+    #l__box nav{
+        margin-top: 50px;
+    }
 
-        nav h3{
+        #l__box nav h3{
             background-color:gray;
+            color: white;
+
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 25px;
         }
 
-        nav ul{}
+        #l__box nav ul{
+            margin-bottom: 50px;
+        }
 
-            nav ul li{
-                list-style: none;
+            #l__box nav ul li{
             }
 
                 nav ul li.nav__box{
                     width: 200px;
                     height: auto;
-                    padding: 25px 0;
+                    padding: 20px 0;
                     text-align: center;
-                    border: solid 0.5px;
+                    border-bottom: dotted 0.5px;
                 }
+    
+    .banner{
+        margin: 5px 0;
+    }
 
 
 
 #r__box{
-    display: inline-block;
+    float: none;
+    margin-left: 200px;
+    padding: 50px;
+}
 
-    margin: 0 50px;
+#r__box--main{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#sect01{
+    margin-bottom: 50px;
+}
+
+ul#sect01__cont li{
+    float: left;
+    width: 30%;
+    height: auto;
+}
+    .sect01__cont--img{
+        padding: 0;
+        margin: 0;
+        margin-right: 5%;
+    }
+    #sect01__cont li p{
+        clear: both;
+
+        margin-top: 5px;
+    }
+
+    .sect02{
+        float: left;
+    }
+#sect02__cont{
+    clear: both;
+}
+#sect02__cont div{
+    width: 35%;
+}
+#sect02__cont--img{
+
+    width: 60%;
+}
+
+div#sect03{
+    clear: both;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+    padding: 20px 0 ;
+}
+
+#sect03__img{
+    width: 35%;
+}
+
+.sect03{
+    float: left;
+}
+
+footer{
+    padding: 30px 50px 30px 50px;
+    color: #fff;
+    text-align: right;
+    background-color: #aaa;
+    clear: both;
 }

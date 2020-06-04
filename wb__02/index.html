@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+<div id="body__stl">
 
     <div id="l__box">
 
@@ -17,7 +18,7 @@
 
         <nav>
 
-            <h3>Content</h3>
+            <h3>contents</h3>
 
             <ul>
                 <li class="nav__box">navigation1</li>
@@ -31,9 +32,9 @@
 
 
 
-        <img src="images/banner1.png" alt="">
-        <img src="images/banner2.png" alt="">
-        <img src="images/banner3.png" alt="">
+        <img class="banner" src="images/banner1.png" alt="">
+        <img class="banner" src="images/banner2.png" alt="">
+        <img class="banner" src="images/banner3.png" alt="">
 
     </div>
 
@@ -41,59 +42,74 @@
 
     <div id="r__box">
 
-        <img src="images/main-visual.png" alt="">
+        <img id="r__box--main" src="images/main-visual.png" alt="">
 
 
 
-        <div>
-
-            <h2></h2>
-            <img src="images/section1-image1.png" alt="">
-            <p></p>
-
-            <h2></h2>
-            <img src="images/section1-image2.png" alt="">
-            <p></p>
-
-            <h2></h2>
-            <img src="images/section1-image3.png" alt="">
-            <p></p>
+        <div id="sect01">
         
+            <ul id="sect01__cont">
+
+                <li class="sect01__cont--img">
+                    <h2></h2>
+                    <img src="images/section1-image1.png" alt="">
+                    <p>文章</p>
+                </li>
+
+                <li class="sect01__cont--img">           
+                    <h2></h2>
+                    <img src="images/section1-image2.png" alt="">
+                    <p></p>
+                </li>
+
+                <li>
+                    <h2></h2>
+                    <img src="images/section1-image3.png" alt="">
+                    <p></p>
+                </li>
+            </ul>
+
         </div>
         
 
 
-        <div>
+        <div id="sect02__cont">
+            <div class="sect02">
 
             <h2>デザインでお答えすること。</h2>
 
-            <p></p>
+            <p>本質を捉え、見ただけでなく情報をデザインし、表現する、それが「デザイン」だと私たちは考えます。</p>
+            
+            </div>
 
-            <img src="images/section2-image.png" alt="">
+            <img class="sect02" id="sect02__cont--img" src="images/section2-image.png" alt="">
 
         </div>
 
 
         
-        <div>
+        <div id="sect03" class="sect03">
 
-            <h1></h1>
+            <h1>新着情報</h1>
 
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>01</li>
+                <li>02</li>
+                <li>03</li>
+                <li>04</li>
+                <li>05</li>
+                <li>06</li>
+                <li>07</li>
+                <li>08</li>
             </ul>
-
-            <img src="images/section3-image.png" alt="">
+            
+            <img id="sect03__img" class="sect03" src="images/section3-image.png" alt="">
 
         </div>
     </div>
+
+    <footer>(c)2020 WB33.</footer>
+</div>
 
 </body>
 </html>
