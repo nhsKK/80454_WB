@@ -4,6 +4,13 @@ img{
     width: 100%;
     height: auto;
 }
+.img__trs:hover{
+    opacity: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
 
@@ -22,7 +29,7 @@ ul li{
     float: left;
 
     width: 200px;
-    height: 1000px; 
+    height: auto; 
     top: 0px;
     border-right: solid gray 0.5px;
 }
@@ -54,6 +61,13 @@ ul li{
                     text-align: center;
                     border-bottom: dotted 0.5px;
                 }
+                nav ul li.nav__box:hover{
+                    background-color: gainsboro;
+                }
+                nav ul a{
+                    text-decoration: none;
+                    color: black;
+                }
     
     .banner{
         margin: 5px 0;
@@ -65,6 +79,7 @@ ul li{
     float: none;
     margin-left: 200px;
     padding: 50px;
+    border-left: solid 0.5px;
 }
 
 #r__box--main{
@@ -85,42 +100,96 @@ ul#sect01__cont li{
         padding: 0;
         margin: 0;
         margin-right: 5%;
+        margin-bottom: 1em;
     }
+        .sect01__cont--img h2{
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        .sect01__cont--img p{
+            margin: 1em 0 5em 0 ;
+        }
     #sect01__cont li p{
         clear: both;
 
-        margin-top: 5px;
+        margin: 1em 0 5em 0 ;
     }
+        #sect01__cont li h2{
+            font-size: 2rem;
+            margin: 1rem 0;
+        }
 
-    .sect02{
-        float: left;
-    }
+
+
 #sect02__cont{
     clear: both;
 }
+.sect02{
+    float: left;
+}
+    .sect02 h2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .sect02 p{
+        font-size: 1.1rem;
+        width: 100%;
+    }
+    
 #sect02__cont div{
     width: 35%;
 }
 #sect02__cont--img{
-
+    float: right;
+    
     width: 60%;
 }
 
 div#sect03{
     clear: both;
 
-    margin-top: 25px;
+    margin-top: 29rem;
     margin-bottom: 50px;
     padding: 20px 0 ;
+    height: 500px;
 }
 
 #sect03__img{
+    float: right;
     width: 35%;
 }
 
 .sect03{
     float: left;
 }
+
+#sect03__list{
+    margin-top: 1rem;
+    width: 60%;
+}
+#sect03__list h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+    margin-bottom: 2rem;
+}
+#sect03__list--ul p{
+    font-size: 17px;
+}
+#sect03__list--ul li{
+    width: 90%;
+    margin: 1.5rem 0;
+    border-bottom: solid 0.5px;
+}
+.sect03__list--date{
+    float: left;
+
+    margin-right: 2rem;
+    font-weight: bold;
+}
+.sect03__list--li a:hover{
+    color: hotpink;
+}
+
 
 footer{
     padding: 30px 50px 30px 50px;
