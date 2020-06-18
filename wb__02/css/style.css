@@ -91,10 +91,13 @@ ul li{
     margin-bottom: 50px;
 }
 
+ul#sect01__cont{
+    overflow: auto;
+}
+
 ul#sect01__cont li{
     float: left;
     width: 30%;
-    height: auto;
 }
     .sect01__cont--img{
         padding: 0;
@@ -110,8 +113,6 @@ ul#sect01__cont li{
             margin: 1em 0 5em 0 ;
         }
     #sect01__cont li p{
-        clear: both;
-
         margin: 1em 0 5em 0 ;
     }
         #sect01__cont li h2{
@@ -122,7 +123,8 @@ ul#sect01__cont li{
 
 
 #sect02__cont{
-    clear: both;
+    overflow: auto;
+    margin-bottom: 50px;
 }
 .sect02{
     float: left;
@@ -146,9 +148,6 @@ ul#sect01__cont li{
 }
 
 div#sect03{
-    clear: both;
-
-    margin-top: 29rem;
     margin-bottom: 50px;
     padding: 20px 0 ;
     height: 500px;
