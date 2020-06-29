@@ -6,7 +6,7 @@ function check(){
 			throw new Error("パスワードを入力してください");
 		}
 		if (password.value.length < 8) {
-			throw new Error("8文字以上で入力してください");
+			throw new Error("8文字以上で入力してください");8
 		}
 	} catch (err) {
 		const errorMessage = document.getElementById("error-message");
