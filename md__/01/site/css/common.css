@@ -271,9 +271,9 @@ ul#aqua li a:hover{
     display: block;
     background-color: #ccc;
     color: #222;
-    font-size: 12px;
+    font-size: 20px;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 15px;
     opacity: 0.5;
 }
 .pagetop a:hover {
