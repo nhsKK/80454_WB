@@ -6,29 +6,20 @@ function validate (self) {
   try {
     // ① self.previousElementSiblingを使って兄要素にアクセスして、labelのテキストを取得する
     var self__prev = $(self).prev('label').text();
-    //console.log(self__prev);
-    
-    const mail = "メールアドレス";
-    const pass = "パスワード";
-    const from__a = "出身地（都道府県）";
 
     if (!self.value) {
       // ② 未入力エラーを投げる
       // * inputタグの場合、「〇〇を入力してください」。selectタグの場合、「〇〇を選択してください」
       // * self.tagNameでタグ名を取得できます。
-      //const tag__name = self.tagName; 
-      //console.log(tag__name);
-      
-      //const self__name = $(self).prop("type");
-      //console.log(self__name);
-      
-      if ( self__prev === mail ) {
-          throw new Error("メールアドレスを入力してください。");
-      }else if (self__prev === pass) {
-          throw new Error("パスワードを入力してください"); 
-      }else if (self__prev === from__a) {
-          throw new Error("出身地を選択してください");
-      }
+
+	const tag = self.tagName;
+
+	if( tag === 'INPUT' ){
+		throw new Error(self__prev + 'を入力してください');
+	}else {
+		throw new Error('出身地を選択してください');
+	}
+
     }
 
     // ③ self.nextElementSiblingを使って弟要素にアクセスして、pタグのテキストを空文字で上書きする
@@ -45,28 +36,23 @@ function validate (self) {
 function validateAll () {
   // ⑤ document.querySelectorAll('input, select')で全てのinput, selectタグのリストを取得する
   //var all__ = $('input, select');
-  var areas = $(':text, :password, select');
   // ⑥ 取得したリストの長さ分、for文で繰り返してvalidate()関数を実行する
   // * inputのtypeがbuttonの場合、validate()関数を実行しない様にする
-  var vals = areas.map(function(){
-      return $(this).val();
-  }).get();
-  
-  //console.log(vals);
-  
-  var vals__leng = vals.length;
-  
-  for ( var tag of vals) {
-      //console.log(tag);
-      
-      //validate(tag);
-  }
-  
-  $.each(vals, function(index, val) {
-      console.log(val);
-      $(val).validate({});
-  });
-  
+
+    //var element = document.querySelectorAll('input, select');
+    var vals = $('input, select');
+
+    for(var i of vals){
+	
+	var i__t = $(i).attr('type');
+
+	if(i__t != "button"){
+
+	validate(i);
+
+	}	
+    }
+
 };
 
 
