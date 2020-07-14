@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  
+  <title>Document</title>
+</head>
+<body>
+  
+  <nav>
+  
+    <ul>
+      <li>nav1</li><!--
+      --><li>nav2</li><!--
+      --><li id="nav__space">nav3</li><!--
+      
+      --><li>nav1</li><!--
+      --><li>nav2</li><!--
+      --><li>nav3</li>
+    </ul>
+  
+    <div id="nav__logo">
+      <img src="" alt="logo">
+    </div>
+    
+  </nav>
+  
+  <main>
+    
+    <div id="iuiu" class="active slide" value="01">scaaaaale</div><!--
+    --><div id="uiui" class="slide" value="02">scaaaaale</div><!--
+    --><div id="uiiu" class="slide" value="03">scaaaaale</div>
+    
+    <div id="slide__nav--box">
+      <div id="slide__wrap">
+        <div id="slide__nav--01" class="slide__nav" onclick="slide__01func()"></div>
+        <div id="slide__nav--02" class="slide__nav slide__nav--side" onclick="slide__02func()"></div>
+        <div id="slide__nav--03" class="slide__nav slide__nav--side" onclick="slide__03func()"></div>
+      </div>
+    </div>
+    
+  </main>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./js/slider.js"></script>
+  
+</body>
+</html>
