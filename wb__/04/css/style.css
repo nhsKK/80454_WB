@@ -82,23 +82,37 @@ div.slide{
   background-position: center;
 }
 
-div#iuiu{
+div#slide01{
   
   background-image: url('https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png');
   
   background-color: black;
 }
 
-div#uiui{
+div#slide02{
   left: 100%;
   
   background-image: url('https://docs.microsoft.com/ja-jp/windows/uwp/design/controls-and-patterns/images/image_licorice.jpg');
   background-color: blue;
 }
 
-div#uiiu{
+div#slide03{
   left:200%;
   background-image: url('https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg');
+  
+  background-color: red;
+}
+
+div#slide04{
+  left:300%;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpdGWKf9kVHYkcc5ArHqnDh_QsBOsxse5LRLEcSBMM5nN-5xHK3rjCFliw&s=10');
+  
+  background-color: red;
+}
+
+div#slide05{
+  left:400%;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQY3KhTX9GyXM38LEvXKFXmOqFlN7zROvzK9A&usqp=CAU');
   
   background-color: red;
 }
@@ -106,6 +120,7 @@ div#uiiu{
 #slide__nav--box{
   position: absolute;
   overflow: hidden;
+  clear: both;
   
   width: 100%;
   height: 15%;
@@ -117,7 +132,7 @@ div#uiiu{
 }
 
 #slide__wrap{
-  width: 200px;
+  width: 310px;
   margin: 0 auto;
 }
 
@@ -146,17 +161,16 @@ div#uiiu{
   width: 80px;
   height: 80px;
   
-  margin-top: 0;
-  
   background-color: blue;
 }
 
-#slide__nav--01{
-  background-image: url('https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png');
+#test01{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    border-top: solid 5px;
+    
+    margin: 0 auto;
+    
+    text-align: center;
 }
-#slide__nav--02{
-  background-image: url('https://docs.microsoft.com/ja-jp/windows/uwp/design/controls-and-patterns/images/image_licorice.jpg');
-}
-#slide__nav--03{
-  background-image: url('https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg');
-  }
