@@ -13,6 +13,7 @@ list-style: none;
 body{
   max-width: 1920px;
   overflow: hidden visible;
+  background-color: #FFF3E5;
 }
 
 nav{
@@ -178,8 +179,10 @@ div#slide05{
 
     border-bottom: solid 3px;
     margin: 0 auto;
+	padding: 5px;
     text-align: center;
     
+	color: #783700;
     font-size: 30px;
 }
 #test01{
@@ -189,27 +192,64 @@ div#slide05{
     left: 0;right: 0;
     margin: auto;
 
-    width: 80%;
+    width: 70%;
 }
-
+#topic__img{
+	position: absolute;
+	top: 50px;
+}
+.topic__img{
+	position: absolute;
+	
+	top: 230px;
+	
+	width: 200px;
+	height: 120px;
+	box-shadow: 0px 2px 10px 0px;
+	
+	object-fit: cover;
+}
+#topic__img01{
+	left: 0px;
+	z-index: 3;
+}
+#topic__img02{
+	top: 330px;
+	left: 180px;
+}
+#topic__img03{
+	top: 130px;
+	left: 100px;
+}
 #test01 table{
     width: 45%;;
     margin-top: 100px;
     float: right;
 }
 #test01 table tr{
-    border-bottom: solid 1px;
+    border-bottom: solid 1px #F6BD8D;
 }
 .table__c tr p{
     display: inline-block;
     margin-top: 20px;
+	padding: 5px;
     
-    font-size: 20px;
+	color: #AF6323;
+    font-size: 18px;
 }
 .table__date{
     width: 30%;
+	margin-left: 15px;
 }
 .table__txt{
+}
+.lnk{
+	position: absolute;
+	top: 500px;
+	right: 0%;
+	
+	color: #783700;
+	text-decoration:none;
 }
 
 #test02{
@@ -217,10 +257,80 @@ div#slide05{
     clear: both;
     
     top: 220%;
-    left: 0;right: 0;
+    left: 0;
+	right: 0;
     margin: auto;
 
-    width: 80%;
+    width: 70%;
+}
+#test02 div{
+	width: 50%;
+}
+.menu01{
+	position: absolute;
+	top: 150px;
+	right: 0;
+}
+.menu01 h3{
+	
+	text-align: left;
+	
+	font-size: 25px;
+}
+.menu01 p{
+	position: absolute;
+	right: 200px;
+	top: 50px;
+	
+	width: 50%;
+	text-align: right;
+	padding: 5px;
+	
+	font-size: 20px;
+	border-bottom: solid 1px;
+}
+.menu01 img{
+	position: absolute;
+	right: 0%;
+	
+	width: 150px;
+}
+.menu02{
+}
+.menu02 h3{
+	position: absolute;
+	top: 220px;
+	right: 50%;
+	
+	font-size: 25px;
+}
+.menu02 p{
+	position: absolute;
+	left: 200px;
+	top: 275px;
+	
+	width: 30%;
+	text-align: left;
+	padding: 5px;
+	
+	font-size: 20px;
+	border-bottom: solid 1px;
+}
+.menu02 img{
+	position: absolute;
+	top: 225px;
+	left: 0%;
+	
+	width: 200px;
+	height: 150px;
+	background-color: gray;
+}
+
+#menu__03{
+	top: 400px;
+}
+#menu__04{
+	top: 525px;
 }
 
 #test03{
