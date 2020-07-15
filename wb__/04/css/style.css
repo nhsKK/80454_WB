@@ -5,14 +5,14 @@
 *,html{
   margin: 0;
   padding: 0;
+list-style: none;
 }
 
 
 
 body{
   max-width: 1920px;
-  
-  overflow: hidden;
+  overflow: hidden visible;
 }
 
 nav{
@@ -33,7 +33,7 @@ nav ul{
   margin: 0 auto;
   text-align: center;
   
-  padding: 5px;
+  padding: 12px;
 }
 
 nav ul li{
@@ -52,7 +52,6 @@ nav ul li{
 
 
 #nav__logo{
-  /*position: absolute;*/
   
   width: 100px;
   height: 50px;
@@ -64,6 +63,16 @@ nav ul li{
   margin: auto;
   
   background-color: white;
+}
+#nav__logo img{
+  position: absolute;
+
+  top: 5px;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+  width: 80px;
 }
 
 
@@ -164,13 +173,54 @@ div#slide05{
   background-color: blue;
 }
 
+.cont__h1{
+    width: 25%;
+
+    border-bottom: solid 3px;
+margin: 0 auto;
+    text-align: center;
+}
 #test01{
     position: absolute;
-    top: 100%;
+  
+    top: 120%;
+    left: 0;right: 0;
+    margin: auto;
+
+    width: 80%;
+}
+
+#test01 ul{
+width: 80%;
+margin-top: 50px;
+text-align: right;
+}
+
+#test02{
+    position: absolute;
+  
+    top: 220%;
+    left: 0;right: 0;
+    margin: auto;
+
+    width: 80%;
+}
+
+#test03{
+    position: absolute;
+  
+    top: 320%;
+    left: 0;right: 0;
+    margin: auto;
+
+    width: 80%;
+}
+
+footer{
+    position: absolute;
+    top: 420%;
+
     width: 100%;
-    border-top: solid 5px;
-    
-    margin: 0 auto;
-    
-    text-align: center;
+    height: 100px;
+    background-color: gray;
 }

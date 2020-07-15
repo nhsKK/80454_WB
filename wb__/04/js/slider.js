@@ -24,7 +24,7 @@ window.onload = function(){
     $('#slide__nav--04').css("background-image",slide04__bg);
     $('#slide__nav--05').css("background-image",slide05__bg);
     
-    setTimeout(function() {
+    time01 = setTimeout(function() {
         anime();
         slide__act();
     }, 5000);
