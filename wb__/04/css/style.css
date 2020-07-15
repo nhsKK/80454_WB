@@ -177,8 +177,10 @@ div#slide05{
     width: 25%;
 
     border-bottom: solid 3px;
-margin: 0 auto;
+    margin: 0 auto;
     text-align: center;
+    
+    font-size: 30px;
 }
 #test01{
     position: absolute;
@@ -190,15 +192,30 @@ margin: 0 auto;
     width: 80%;
 }
 
-#test01 ul{
-width: 80%;
-margin-top: 50px;
-text-align: right;
+#test01 table{
+    width: 45%;;
+    margin-top: 100px;
+    float: right;
+}
+#test01 table tr{
+    border-bottom: solid 1px;
+}
+.table__c tr p{
+    display: inline-block;
+    margin-top: 20px;
+    
+    font-size: 20px;
+}
+.table__date{
+    width: 30%;
+}
+.table__txt{
 }
 
 #test02{
     position: absolute;
-  
+    clear: both;
+    
     top: 220%;
     left: 0;right: 0;
     margin: auto;
