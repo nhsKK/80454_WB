@@ -16,7 +16,7 @@ body{
   background-color: #FFF3E5;
 }
 
-nav{
+header nav{
   float: left;
   
   z-index: 100;
@@ -28,7 +28,7 @@ nav{
   opacity: 75%;
 }
 
-nav ul{
+header nav ul{
   width: 80%;
   
   margin: 0 auto;
@@ -37,12 +37,12 @@ nav ul{
   padding: 12px;
 }
 
-nav ul li{
-  display: inline;
-  margin: auto 50px;
+header nav ul li{
+    display: inline;
+    margin: auto 25px;
   
   list-style-type: none;
-  font-size: 20px;
+  font-size: 15px;
   color: red;
 }
 
@@ -94,7 +94,7 @@ div.slide{
 
 div#slide01{
   
-  background-image: url('https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png');
+  background-image: url('../image/slide__01.jpg');
   
   background-color: black;
 }
@@ -102,28 +102,28 @@ div#slide01{
 div#slide02{
   left: 100%;
   
-  background-image: url('https://docs.microsoft.com/ja-jp/windows/uwp/design/controls-and-patterns/images/image_licorice.jpg');
+  background-image: url('../image/slide__02.jpg');
   background-color: blue;
 }
 
 div#slide03{
   left:200%;
-  background-image: url('https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg');
   
+  background-image: url('../image/slide__03.jpg');  
   background-color: red;
 }
 
 div#slide04{
   left:300%;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpdGWKf9kVHYkcc5ArHqnDh_QsBOsxse5LRLEcSBMM5nN-5xHK3rjCFliw&s=10');
   
+  background-image: url('../image/slide__04.jpg');
   background-color: red;
 }
 
 div#slide05{
   left:400%;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQY3KhTX9GyXM38LEvXKFXmOqFlN7zROvzK9A&usqp=CAU');
   
+  background-image: url('../image/slide__05.jpg');
   background-color: red;
 }
 
@@ -203,8 +203,8 @@ div#slide05{
 	
 	top: 230px;
 	
-	width: 200px;
-	height: 120px;
+	width: 250px;
+	height: 150px;
 	box-shadow: 0px 2px 10px 0px;
 	
 	object-fit: cover;
@@ -232,24 +232,28 @@ div#slide05{
 .table__c tr p{
     display: inline-block;
     margin-top: 20px;
-	padding: 5px;
     
 	color: #AF6323;
-    font-size: 18px;
 }
 .table__date{
-    width: 30%;
-	margin-left: 15px;
+	margin-left: 5px;
+    
+    font-size: 14px;
 }
 .table__txt{
+    margin-left: 15px;
+    
+    font-size: 13px;
 }
 .lnk{
 	position: absolute;
-	top: 500px;
+	top: 450px;
 	right: 0%;
 	
 	color: #783700;
 	text-decoration:none;
+    
+    font-size: 12px;
 }
 
 #test02{
@@ -263,74 +267,126 @@ div#slide05{
 
     width: 70%;
 }
-#test02 div{
-	width: 50%;
+#test02 div.menu01{
+    
+    float: right;
+    width: 50%;
 }
-.menu01{
-	position: absolute;
-	top: 150px;
-	right: 0;
+#menu01{
+    position: absolute;
+    right: 0;
+    top: 50px;
 }
-.menu01 h3{
-	
-	text-align: left;
-	
-	font-size: 25px;
+#menu02{
+    position: absolute;
+    
+    left: 0;
+    top: 220px;
 }
-.menu01 p{
-	position: absolute;
-	right: 200px;
-	top: 50px;
-	
-	width: 50%;
-	text-align: right;
-	padding: 5px;
-	
-	font-size: 20px;
-	border-bottom: solid 1px;
-}
-.menu01 img{
-	position: absolute;
-	right: 0%;
-	
-	width: 150px;
-}
-.menu02{
-}
-.menu02 h3{
-	position: absolute;
-	top: 220px;
-	right: 50%;
-	
-	font-size: 25px;
-}
-.menu02 p{
-	position: absolute;
-	left: 200px;
-	top: 275px;
-	
-	width: 30%;
-	text-align: left;
-	padding: 5px;
-	
-	font-size: 20px;
-	border-bottom: solid 1px;
-}
-.menu02 img{
-	position: absolute;
-	top: 225px;
-	left: 0%;
-	
-	width: 200px;
-	height: 150px;
-	background-color: gray;
-}
-
 #menu__03{
-	top: 400px;
+ position: absolute;
+
+ top: 300px;
+ right: 0;
 }
 #menu__04{
-	top: 525px;
+    position: absolute;
+    
+    top: 370px;
+    left: 0;
+}
+.menu01{
+    position: static;
+    
+    margin-top: 100px;
+}
+.menu01 h3{
+    position: absolute;
+    
+    left: 10%;
+    
+    font-size: 18px;
+}
+.menu01 p{
+    float: right;
+    
+    width: 55%;
+    
+    margin: 50px 00px 0 0;
+    padding: 5px;
+    text-align: right;
+    border-bottom: solid 1px;
+}
+.menu01 img {
+    float: right;
+    
+    width: 40%;
+    height: 150px;
+    
+    object-fit: cover;
+    
+    background-color: gray;
+    
+    clear: both; 
+}
+
+/*************/
+
+#test02 div.menu02{
+    
+    float: left;
+    width: 50%;
+}
+
+.menu02{
+    position: static;
+}
+.menu02 h3{
+    position: absolute;
+    
+    right: 10%;
+    
+    font-size: 18px;
+}
+.menu02 p{
+    float: left;
+    
+    width: 55%;
+    
+    margin: 50px 00px 0 0;
+    padding: 5px;
+    text-align: left;
+    border-bottom: solid 1px;
+}
+.menu02 img {
+    float: left;
+    
+    width: 40%;
+    height: 150px;
+    
+    object-fit: cover;
+    
+    background-color: gray;
+    clear: both;
+}
+
+/***********/
+#menu__03{
+    margin-top: 0;
+}
+#menu__04{
+    margin-top: 0;
+}
+
+.lnk__02{
+    position: absolute;
+    
+    top: 600px;
+    right: 0;
+	
+	color: #783700;
+	text-decoration:none;
+    font-size: 12px;
 }
 
 #test03{
@@ -340,7 +396,50 @@ div#slide05{
     left: 0;right: 0;
     margin: auto;
 
-    width: 80%;
+    width: 70%;
+}
+.cont03__list{
+    font-size: 16px;
+}
+.cont03__tittle{
+    font-size: 15px;
+}
+.cont03__list p{
+    display: inline-block;
+    
+}
+.cont03__txt02{
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#test03 div{
+    width: 50%;
+    text-align: left;
+}
+
+#test03 div h2{
+    width: 50%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+#test03 div ul li{
+    text-align: left;
+}
+
+#test03 img#map{
+    position: absolute;
+    
+    margin-top: 100px;
+    right: 0;
+    top: 100px;
+    
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    
+    background-color: gray;
 }
 
 footer{
@@ -348,6 +447,41 @@ footer{
     top: 420%;
 
     width: 100%;
-    height: 100px;
     background-color: gray;
+    padding: 15px;
+}
+
+footer nav{
+  float: left;
+  
+  width: 100%;
+  height: 50px;
+  
+  margin: 10px auto;
+}
+
+.footer__img{
+    clear: both;
+    display: inline-block;
+    
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    
+}
+
+footer nav ul{
+  width: 100%;
+  
+  margin: 0 auto;
+  text-align: center;
+  clear: both;
+}
+footer nav ul li{
+    display: inline-block;
+    margin: 10px 15px;
+}
+
+footer p{
+    text-align: center;
 }
