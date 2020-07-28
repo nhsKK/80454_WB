@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+JP&display=swap');
 
 /* 共通のスタイル */
 
@@ -6,6 +7,7 @@
   margin: 0;
   padding: 0;
 list-style: none;
+    font-family: 'Merriweather', 'Noto Sans JP', serif, sans-serif;
 }
 
 
@@ -41,9 +43,9 @@ header nav ul li{
     display: inline;
     margin: auto 25px;
   
-  list-style-type: none;
-  font-size: 15px;
-  color: red;
+    list-style-type: none;
+    font-size: 15px;
+    color: #B36320;
 }
 
 #nav__space{
@@ -185,13 +187,13 @@ div#slide05{
 	color: #783700;
     font-size: 30px;
 }
-#test01{
+#cont__01{
     position: absolute;
   
     top: 120%;
     left: 0;right: 0;
     margin: auto;
-
+    
     width: 70%;
 }
 #topic__img{
@@ -221,12 +223,12 @@ div#slide05{
 	top: 130px;
 	left: 100px;
 }
-#test01 table{
+#cont__01 table{
     width: 45%;;
     margin-top: 100px;
     float: right;
 }
-#test01 table tr{
+#cont__01 table tr{
     border-bottom: solid 1px #F6BD8D;
 }
 .table__c tr p{
@@ -256,7 +258,7 @@ div#slide05{
     font-size: 12px;
 }
 
-#test02{
+#cont__02{
     position: absolute;
     clear: both;
     
@@ -265,9 +267,10 @@ div#slide05{
 	right: 0;
     margin: auto;
 
+    color: #AF6323;
     width: 70%;
 }
-#test02 div.menu01{
+#cont__02 div.menu01{
     
     float: right;
     width: 50%;
@@ -332,7 +335,7 @@ div#slide05{
 
 /*************/
 
-#test02 div.menu02{
+#cont__02 div.menu02{
     
     float: left;
     width: 50%;
@@ -389,13 +392,14 @@ div#slide05{
     font-size: 12px;
 }
 
-#test03{
+#cont__03{
     position: absolute;
   
     top: 320%;
     left: 0;right: 0;
     margin: auto;
 
+    color: #AF6323;
     width: 70%;
 }
 .cont03__list{
@@ -413,22 +417,22 @@ div#slide05{
     margin-top: 5px;
     margin-bottom: 20px;
 }
-#test03 div{
+#cont__03 div{
     width: 50%;
     text-align: left;
 }
 
-#test03 div h2{
+#cont__03 div h2{
     width: 50%;
     margin: 80px auto;
     text-align: center;
 }
 
-#test03 div ul li{
+#cont__03 div ul li{
     text-align: left;
 }
 
-#test03 img#map{
+#cont__03 img#map{
     position: absolute;
     
     margin-top: 100px;
@@ -441,33 +445,46 @@ div#slide05{
     
     background-color: gray;
 }
+.service__logo{
+    height: 30px;
+}
 
 footer{
     position: absolute;
     top: 420%;
 
     width: 100%;
-    background-color: gray;
+    background-color: #A47E57;
+    color: white;
     padding: 15px;
 }
 
 footer nav{
-  float: left;
   
   width: 100%;
   height: 50px;
   
-  margin: 10px auto;
+  margin: 0px auto;
+  
+  padding: 1rem;
 }
 
 .footer__img{
     clear: both;
-    display: inline-block;
     
     width: 150px;
     height: 50px;
     margin: 0 auto;
+    text-align: center;
     
+    padding: 1rem;
+}
+
+.footer__img img{
+    width: 35px;
+    height: auto;
+    
+    margin: 0 10px;
 }
 
 footer nav ul{
@@ -484,4 +501,15 @@ footer nav ul li{
 
 footer p{
     text-align: center;
+}
+
+.footer__logo{
+    width: 100%;
+    padding: 1rem;
+    
+    text-align: center;
+}
+
+.footer__logo img{
+    height: 30px;
 }
