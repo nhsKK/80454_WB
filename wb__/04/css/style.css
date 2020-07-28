@@ -48,6 +48,10 @@ header nav ul li{
     color: #B36320;
 }
 
+nav a{
+    text-decoration: none;
+}
+
 #nav__space{
   margin-right: 150px;
 }
@@ -512,4 +516,9 @@ footer p{
 
 .footer__logo img{
     height: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
