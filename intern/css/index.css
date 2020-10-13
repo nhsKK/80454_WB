@@ -63,19 +63,19 @@ main{
     text-align: center;
 }
 #links a img{
-    width: 100%;
+    width: 70%;
 }
 #sns{
     display: flex;
     justify-content: space-between;
     
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
 }
 #sns img{
     width: 30%;
 }
 #youtube img{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
