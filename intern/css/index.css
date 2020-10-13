@@ -58,18 +58,24 @@ main{
 }
 
 #links{
-    width: 80%;
+    width: 20%;
     margin: 5rem auto;
     text-align: center;
+}
+#links a img{
+    width: 100%;
 }
 #sns{
     display: flex;
     justify-content: space-between;
     
-    width: 20%;
+    width: 100%;
     margin: 0 auto;
 }
-#youtube{
-    width: 60%;
+#sns img{
+    width: 30%;
+}
+#youtube img{
+    width: 80%;
     margin: 0 auto;
 }
