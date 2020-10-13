@@ -1,0 +1,27 @@
+#new-release{
+    width: 80%;
+    margin: 0 auto;
+}
+#new-release h1 img{
+    width: 80%;
+    margin: 1.5rem auto 2rem auto;
+}
+
+#album img:first-child{
+    width: 100%;
+}
+#album img:nth-child(2){
+    width: 80%;
+}
+
+#lineup{
+    width: 100%;
+}
+#lineup h2{
+    margin: 1rem auto;
+}
+#lineup ul li{
+    list-style-type: decimal;
+    text-align: left;
+    font-size: 1.2rem;
+}

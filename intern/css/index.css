@@ -1,6 +1,3 @@
-body{
-    background-color: black;
-}
 main{
     position: absolute;
     
@@ -70,7 +67,7 @@ main{
     justify-content: space-between;
     
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 #sns img{
     width: 30%;
