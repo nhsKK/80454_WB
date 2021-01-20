@@ -9,7 +9,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>    
     let a = 0;
-    function get_data(){
+    window.onload = function get_data(){
         $.ajax({
             url: "sample.php",
             method: "POST",
